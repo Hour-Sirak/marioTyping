@@ -22,8 +22,7 @@
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
-	transition: background-color 2s;
-	/* transform: translateY(-100%); */
+	transform: translateY(-100%);
 }
 
 .black-screen-top{
@@ -41,10 +40,6 @@
 		background-color: rgba(0, 0, 0, 1);
 		transform: translateY(calc(var(--dir)*50%));
 	}
-}
-
-.move-in{
-	transform: translateY(0%) !important;
 }
 
 #container h1{
